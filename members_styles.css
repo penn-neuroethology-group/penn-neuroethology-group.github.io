@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #444;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.profile-photo {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 170px); /* Adjust width according to the photo size */
+}
+
+.faculty-member, .student-member {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee; /* A subtle line between entries */
+}
+
+.faculty-member h3, .student-member h3 {
+    margin-top: 0;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .profile-photo {
+        display: block;
+        margin: 0 auto 20px;
+    }
+
+    .profile-info {
+        display: block;
+        width: 100%;
+    }
+}
+
+footer p {
+    margin: 0;
+}
