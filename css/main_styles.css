@@ -17,12 +17,13 @@ header {
 
 /* Adjust the header image size */
 #header-img {
-    width: auto; /* Adjust width as necessary */
-    max-height: 100px; /* Reduce the maximum height */
-    height: auto; /* Keep the aspect ratio */
+    width: 80%; /* Increase width to stretch the image horizontally */
+    max-height: 120px; /* Slightly increase max-height if needed */
+    height: auto; /* Maintain the aspect ratio */
     display: block;
-    margin: 0 auto; /* Center the image in the header */
+    margin: 0 auto; /* Keep the image centered in the header */
 }
+
 
 /* Adjust the header text size if necessary */
 header h1 {
