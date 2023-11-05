@@ -18,6 +18,12 @@ header {
 header h1 {
     margin: 0;
 }
+#header-img {
+    width: 100%; /* Set the width to 100% of its parent */
+    height: auto; /* Keep the aspect ratio */
+    display: block; /* Ensures it takes up the full width */
+    margin-bottom: 20px; /* Adds space between the image and the nav */
+}
 
 /* Style the navigation menu */
 nav ul {
@@ -94,6 +100,17 @@ img {
 
 .person-entry div {
     flex: 1;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    /* Adjust other styles as needed for smaller screens */
 }
 
 /* This is a simple layout. You may want to add media queries to make it responsive for different screen sizes */
