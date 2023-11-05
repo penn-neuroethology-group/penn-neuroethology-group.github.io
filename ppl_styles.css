@@ -1,0 +1,99 @@
+/* Add some basic styling to the body */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Style the header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Add a hover effect on navigation links */
+nav a:hover {
+    color: #c1c1c1;
+}
+
+/* Style the main content area */
+main {
+    padding: 20px;
+    background: #fff;
+}
+
+/* Style the section headings */
+main h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+/* Style individual people entries */
+.faculty-member, .student-member {
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+/* Add some spacing to paragraphs for better readability */
+p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+}
+
+/* Responsive image styling */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Add custom classes for layout */
+.person-entry {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.person-entry img {
+    border-radius: 50%;
+    margin-right: 15px;
+    width: 100px; /* Set image size */
+}
+
+.person-entry div {
+    flex: 1;
+}
+
+/* This is a simple layout. You may want to add media queries to make it responsive for different screen sizes */
