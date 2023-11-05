@@ -4,33 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penn Neuroethology Group</title>
-    <!-- Add link to CSS file -->
-    <link rel="stylesheet" href="ppl_styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=initMap" async defer></script>
 </head>
 <body>
     <header>
         <h1>Welcome to the Penn Neuroethology Group</h1>
         <nav>
-            <!-- Navigation links -->
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="people.html">Faculty</a></li>
-                <li><a href="contact.html">Faculty</a></li>
-                <!-- Add more links as needed -->
+                <li><a href="people.html">People</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <!-- Main content goes here -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>At the Penn Neuroethology Group, we delve into the brain's social conduct orchestra, combining computational prowess with ethological wisdom to decode nature's neural symphonies.</p>
+        </section>
+
+        <section id="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:contact@pennneuroethology.edu">contact@pennneuroethology.edu</a></p>
+            <p>Address: XYZ Building, UPenn Campus, Philadelphia, PA</p>
+        </section>
+
+        <section id="campus-map">
+            <h2>Campus Map</h2>
+            <div id="map"></div>
+        </section>
+
+        <section id="news-events">
+            <h2>News and Events</h2>
+            <ul>
+                <li>Neuroethology Symposium - November 2023</li>
+                <li>Weekly Journal Club - Fridays at 2 PM</li>
+                <!-- More news and events -->
+            </ul>
+        </section>
     </main>
-
-    <footer>
-        <!-- Footer content goes here -->
-    </footer>
-
-    <!-- Add JavaScript files -->
-    <script src="scripts.js"></script>
 </body>
 </html>
