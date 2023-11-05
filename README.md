@@ -10,9 +10,9 @@ We are always on the lookout for passionate researchers, students, and collabora
 - ~~Add contact info to landing page~~
 - ~~Add map and address to landing page~~
 - ~~Add news/events page to landing page~~
+- ~~Add publications page~~
 - [] Add people and pictures to people.html
 - [] Add headers to each page: Neuroetho, PHL, Penn, etc.
 - [] Add background imgs to each page
-- [] Add publications page
-- [] Follow web accessibility guidelines (WCAG)
 - [] Create PNG logo? then add Penn logos to each page?
+- [] Follow web accessibility guidelines (WCAG)
