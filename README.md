@@ -1,5 +1,7 @@
 # Penn Neuroethology Group Website
 
+Find the website at penn-neuroethology-group.github.io.
+
 ### About the Group
 Welcome to the Penn Neuroethology Group at the University of Pennsylvania. We are an interdisciplinary team of researchers dedicated to unraveling the complexities of neural behavior through the lens of computational neuroethology. Situated in the vibrant heart of Philadelphia, our group combines state-of-the-art computational methods with deep ethological insights to decode the neural substrates of natural behaviors and cognitive processes in myriad model organisms, including songbirds, primates, and rodents.
 
